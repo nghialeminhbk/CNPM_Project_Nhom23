@@ -277,7 +277,7 @@ public class InsertPA extends javax.swing.JFrame {
             String year = cbYear.getSelectedItem().toString();
             
             Date date = Date.valueOf(year + "-" + month + "-" + day);
-            
+            String sql="nohope";
             String type = cbType.getSelectedItem().toString();
             String state = cbState.getSelectedItem().toString();
             
